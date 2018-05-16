@@ -27,7 +27,7 @@ span {
 }
 
 .banner {
-  height: 400px;
+  height: 25rem;
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,15 +36,30 @@ span {
 .box {
   font-family: Helvetica;
   background-color: black;
+  color: white;
   width: 20rem;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 9rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
   top: 120px;
   left: 100px;
   border: dotted orangred 1px;
+}
+
+h2 {
+font-family: Helvetica;
+font-size: 1rem;
+font-weight: bold;
+padding-top: 2rem;
+}
+
+h4 {
+  font-size: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
 }
 
   nav {
@@ -67,16 +82,26 @@ a {
 
 .image-container {
   display: flex;
-
+  justify-content: space-around;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.images {
+.images img {
 border: 4px solid black;
 margin-top: 3rem;
+max-height: 9rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+height: 9em;
 }
 
 footer {
   text-align: left;
   background-color: black;
+  color: white;
   height: 5rem;
 }
