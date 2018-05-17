@@ -109,6 +109,13 @@ margin: 0 auto;
 height: 9em;
 }
 
+.locations p {
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+margin-top: 3rem;
+}
+
 footer {
   text-align: left;
   background-color: black;
