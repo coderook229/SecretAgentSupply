@@ -109,11 +109,24 @@ margin: 0 auto;
 height: 9em;
 }
 
-.locations p {
-display: flex;
-justify-content: space-around;
-align-items: flex-end;
+.container {
+display: inline-flex;
 margin-top: 3rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+color: white;
+background-color: black;
+width: 50%;
+}
+
+.info {
+width: 35%;
+padding: 1rem 2rem;
+}
+
+.container p {
+  color: black;
+  margin-bottom: 4rem;
 }
 
 footer {
