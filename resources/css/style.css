@@ -126,7 +126,9 @@ padding: 1rem 2rem;
 .info span {
   background-color: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
 }
 
 
