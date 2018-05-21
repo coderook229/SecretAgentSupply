@@ -128,7 +128,7 @@ max-width: 960px;
 }
 
 .info {
-padding: 1rem 0rem;
+padding-left: 5rem;
 width: 35%;
 }
 
@@ -150,8 +150,11 @@ width: 35%;
 }
 
 footer {
+  display: flex;
+  align-items: center;
   text-align: left;
   background-color: black;
   color: white;
-  height: 5rem;
+  height: 10rem;
+  padding-left: 9rem;
 }
