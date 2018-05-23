@@ -207,13 +207,24 @@ footer {
     background-image: url("../images/moto.jpeg");
   }
 
+  .images:nth-of-type(3) {
+   display: none;
+  }
+
+  .images:nth-of-type(2) {
+   display: none;
+  }
+
   .product {
     width: 90%;
   }
 
   .info {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin-top: 0.5rem;
+
   }
 
   footer {
