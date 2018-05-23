@@ -173,11 +173,16 @@ footer {
 .images:nth-of-type(3) {
  display: none;
 }
-  .product {
+  .images {
   width: 47%;
 }
   .info {
     width: 35%;
+  }
+
+  .box {
+    left: 0px;
+    margin-bottom: 15px;
   }
 
   /* Show mobile navigation */
