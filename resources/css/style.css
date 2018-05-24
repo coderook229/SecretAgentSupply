@@ -190,6 +190,10 @@ footer {
     display: block;
     text-align: center;
   }
+
+  nav h1 {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -208,7 +212,7 @@ footer {
   }
 
   .banner {
-    height: 10rem;
+    height: 18rem;
     background-image: url("../images/moto.jpeg");
   }
 
@@ -224,12 +228,14 @@ footer {
     width: 90%;
   }
 
-  .info {
+  .container {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin-top: 0.5rem;
+  }
 
+  .info {
+    width: 90%;
+    padding-left: 1rem;
   }
 
   footer {
